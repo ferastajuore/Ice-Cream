@@ -1,0 +1,40 @@
+.home {
+	.info {
+		& button {
+			box-shadow: -4px 4px $color-primary-dark;
+
+			&:active {
+				box-shadow: -2px 2px $color-primary-dark;
+				transform: scale(0.9);
+				-webkit-transform: scale(0.9);
+				-moz-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				-o-transform: scale(0.9);
+			}
+		}
+	}
+
+	.swiper-cards .swiper-slide {
+		height: 350px;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+}
+
+.products {
+	background-image: linear-gradient(to right bottom, #593a52, $color-secondary-dark);
+}
+
+.customers {
+	.swiper-pagination-bullet-active {
+		background-color: $color-primary-dark;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: $color-primary-dark;
+	}
+}

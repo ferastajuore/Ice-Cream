@@ -1,0 +1,37 @@
+.bg-lg-1 {
+	background-image: linear-gradient(
+		to right bottom,
+		#ff8aad,
+		#ff7597,
+		#d85c83,
+		#ff607f,
+		#ff6b8b,
+		#fc587c
+	);
+}
+
+.bg-lg-2 {
+	background-image: linear-gradient(to right bottom, #ff607f, #fc587c);
+}
+
+.bg-lg-3 {
+	background-image: linear-gradient(to right bottom, $color-primary-dark, #593a52);
+}
+
+.fill-img {
+	// width: 30%;
+	position: relative;
+	// box-shadow: -10px 10px 8px $color-primary-dark;
+
+	// @media (max-width: 480px) {
+	// 	width: 60%;
+	// 	margin: 50px auto;
+	// }
+
+	.custom-img {
+		object-fit: contain;
+		width: 100% !important;
+		position: relative !important;
+		height: unset !important;
+	}
+}
